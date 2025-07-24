@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/product-card-ui/', // 👈 Add this line
+  base: '/my-product-card/', // 👈 Add this line
   plugins: [react()],
 })
