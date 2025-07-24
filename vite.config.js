@@ -1,8 +1,8 @@
+// vite.config.js
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
-  base: '/my-product-card/', // 👈 Add this line
+  base: '/product-card-ui/', // 👈 repo name here!
   plugins: [react()],
 })
